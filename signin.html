@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<!-- Import theme from Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+
+	<!-- Import my css file 'style.css'-->
+	<link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+	<form>
+	  <fieldset>
+	    <legend>Please sign in</legend>
+	    <div class="form-group">
+	      <label for="exampleInputEmail1">Email address</label>
+	      <input type="email" class="form-control" id="input-signup" aria-describedby="emailHelp" placeholder="Enter email">
+	      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	    </div>
+	    <div class="form-group">
+	      <label for="exampleInputPassword1">Password</label>
+	      <input type="password" class="form-control" id="input-signup" placeholder="Password">
+	    </div>
+
+	    <fieldset class="form-group">
+	      <div class="form-check">
+	      	<div>
+	        	<label class="form-check-label">
+	        	<input class="form-check-input" type="checkbox" value="" checked="">
+	          	 Remember me
+	        	</label>
+	        </div>
+	        <div>
+	      		<a href="">Forgot Password ?</a>
+	        </div>
+	       </div>
+
+	       <div class="mb-3">
+	         <button type="submit" class="btn btn-block btn-primary">Sign up</button>
+	       </div>
+
+	       <div class="text-center mb-3">
+	         <p class="text-muted">Do not have an account?  <a href="signup.html">Sign Up</a></p>
+	       </div>
+	  </fieldset>
+	</form>
+</body>
+</html>

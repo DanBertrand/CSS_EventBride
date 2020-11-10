@@ -36,6 +36,7 @@
 }
 
 
+
 /* ========================================================================
    Footer
  ========================================================================== */
@@ -69,10 +70,44 @@ footer p {
 }
 
 
+
+
 /* ========================================================================
    Form
  ========================================================================== */
 
+
+form {
+	margin-left: 20%; margin-right: 20%; margin-top: 15%;
+}
+
+legend {
+	text-align: center;
+	color:#9C7600;
+	font-size: 32px;
+}
+
+.form-check{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-group {
+	width: 50%;
+	margin-left: 25%;
+}
+
+.form-control:focus {
+	border:solid 4px #9C7600;
+}
+
+form a:hover {
+	color:#9C7600;
+}
+
+form p {
+	text-align: center;
+}
 
 
 
@@ -80,3 +115,40 @@ footer p {
  /* ========================================================================
     Banner
   ========================================================================== */
+
+.jumbotron {
+	height: 1000px;
+	background-image: url("../img/3girls.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: left; 
+}
+
+
+.jumbotron-top {
+	height: 60%;
+}
+
+.jumbotron-background {
+	background-color: #002B36;
+	opacity: 0.9;
+	width: 60%;
+	padding: 20px 5px 20px 20px;
+
+}
+
+.display-3 {
+	color: #9C7600;
+}
+
+.jumbotron-text p {
+	color:white;
+}
+
+
+
+/* ========================================================================
+   Card
+ ========================================================================== */
+
+
