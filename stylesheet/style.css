@@ -1,0 +1,10 @@
+.navbar {
+	height: 6em;
+}
+
+
+.navbar-brand {
+	font-size: 40px;
+	text-shadow: 2px 2px #002B36;
+	font-weight: bold;
+}
